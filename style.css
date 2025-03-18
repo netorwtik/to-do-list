@@ -1,0 +1,72 @@
+body {
+  font-family: 'Teko', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: antiquewhite;
+}
+
+header {
+  margin-left: 10%;
+}
+
+.function-buttons {
+  margin-left: 10%;
+}
+
+.btn-add {
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-weight: 900;
+  font-size: larger;
+}
+
+.btn-add:hover {
+  cursor: pointer;
+  background-color: rgb(180, 0, 0);
+  transition: 0.5s;
+}
+
+.task {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 5px solid rgb(0, 0, 0);
+  height: 100vh;
+  background-color: rgb(254, 231, 201);
+}
+
+.task-item {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  margin: 10px 0px;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+}
+
+.form {
+  display: none;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 20px;
+  border-radius: 10px;
+  border: 5px solid rgb(0, 0, 0);
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 700;
+  height: 40%;
+  width: 30%;
+}
